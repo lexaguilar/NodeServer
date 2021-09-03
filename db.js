@@ -1,6 +1,6 @@
 const db = {
     nodata: [],
-    estadoCiviles =[
+    estadoCiviles: [
         {
             value: "1",
             text: 'Casado'
@@ -22,7 +22,7 @@ const db = {
         { value: '1', text: 'Femenino' },
         { value: '2', text: 'Masculino' }
     ],
-    nacionalidades = [
+    nacionalidades: [
         { value: '1', text: 'AMERICA DEL NORTE' },
         { value: '2', text: 'CANADA' },
         { value: '3', text: 'ESTADOS UNIDOS' },
@@ -38,44 +38,44 @@ const db = {
         { value: '13', text: 'VENEZUELA' },
         { value: '505', text: 'NICARAGUA' },
     ],
-    profesiones = [
+    profesiones: [
         { value: '4', text: 'ACTUARIO' },
         { value: '2', text: 'ADMINISTRADOR COMERCIAL' },
         { value: '11', text: 'INGENIERO EN SISTEMAS' },
     ],
-    ocupaciones = [
+    ocupaciones: [
         { value: '1', text: 'ABARROTERO' },
         { value: '2', text: 'ABASTOS, BODEGAS, DELICATESES.' },
         { value: '3', text: 'ABOGADO' },
         { value: '4', text: 'ABONOS Y FERTILIZANTES VENTAS.' },
         { value: '5', text: 'ABRASIVO (MANEJO, SILICE NO, OTROS ABRASIVOS)' },
     ],
-    actividades = [
+    actividades : [
         { value: '1', text: 'EMPLEADO' },
         { value: '3', text: 'PROPIETARIO DE NEGOCIO' },
         { value: '4', text: 'ESTUDIANTE' },
         { value: '5', text: 'AMA DE CASA' },
     ],
-    origenFondos = [
+    origenFondos : [
         { value: '1', text: 'SALARIO' },
         { value: '2', text: 'HERENCIA' },
         { value: '3', text: 'AHORRO' },
         { value: '4', text: 'EMPRESA' },
         { value: '5', text: 'OTROS' },
     ],
-    monedas = [
+    monedas : [
         { value: '1', text: 'Córdobas' },
         { value: '2', text: 'Dólares' },
     ],
-    estaturaUnidades = [
+    estaturaUnidades : [
         { value: '1', text: 'Metros' },
         { value: '2', text: 'Centimetros' },
     ],
-    pesoUnidades=[
+    pesoUnidades:[
         { value: '1', text: 'Libras' },
         { value: '2', text: 'Kg' },
     ],
-    parentescos = [
+    parentescos : [
         { values: '10', text: 'Sobrino (a)' },
         { values: '13', text: 'Esposo' },
         { values: '14', text: 'Esposa' },
@@ -107,4 +107,6 @@ const db = {
     ]
 }
 
-export default db;
+module.exports = {
+    db
+  }

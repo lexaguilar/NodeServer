@@ -1,5 +1,5 @@
 const express = require("express");
-const { default: db } = require("./db");
+const { db } = require("./db");
 const app = express();
 
 const port = process.env.PORT || 3000; 
@@ -15,6 +15,8 @@ app.get('/', function (req, res) {
 app.get('/catalogo', function (req, res) {
 
     const catalogo = req.query.catalogo;
+
+    console.log(db);
 
     const data = db[catalogo || 'nodata'];
 
