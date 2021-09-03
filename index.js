@@ -5,7 +5,7 @@ app.listen(3000, () => {
 });
 
 app.get('/', function (req, res) {
-    res.send('Saludos desde express');
+    res.send('Saludos desde express 2');
   });
 
 app.get('/catalogo', function (req, res) {
