@@ -1,0 +1,26 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexaguilar/NodeServer.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "lex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexaguilar/NodeServer/issues"
+  },
+  "homepage": "https://github.com/lexaguilar/NodeServer#readme"
+}
