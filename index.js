@@ -20,6 +20,6 @@ app.get('/catalogo', function (req, res) {
 
     const data = db[catalogo || 'nodata'];
 
-    res.send({ data });
+    res.send(data);
 
 });
