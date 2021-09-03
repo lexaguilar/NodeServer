@@ -1,4 +1,5 @@
 const express = require("express");
+const { default: db } = require("./db");
 const app = express();
 
 const port = process.env.PORT || 3000; 
@@ -9,9 +10,14 @@ app.listen(port, () => {
 
 app.get('/', function (req, res) {
     res.send('Saludos desde express 4');
-  });
+});
 
 app.get('/catalogo', function (req, res) {
+
     const catalogo = req.query.catalogo;
-    res.send({ catalogo });
+
+    const data = db[catalogo || 'nodata'];
+
+    res.send({ data });
+
 });
