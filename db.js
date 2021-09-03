@@ -104,6 +104,11 @@ const db = {
         { values: '9', text: 'Hermano (a)' },
         { values: 'E', text: 'Conyuge' },
         { values: 'H', text: 'Hijo (a)' },
+    ],
+    identificaciones:[
+        { value: '1', text: 'Cedula'},
+        { value: '2', text: 'Pasaporte'},
+        { value: '3', text: 'Residencia'}
     ]
 }
 
